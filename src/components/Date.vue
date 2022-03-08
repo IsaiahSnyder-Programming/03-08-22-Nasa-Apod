@@ -1,14 +1,14 @@
 
 <template>
     <div class="card">
-        <div class="position-absolute" style="right: 0">
-            <!-- <img :src="date.img"> -->
+        <div class="position-absolute" style="">
+            <img :src="date.img" class="date-image">
             <div class="card-body">
                 <h3 class="d-flex align-items-center justify-content-between">
-                    <span>{{}}</span>
+                    <span>{{date.title}}</span>
                 </h3>
                 <p class="clip-text">
-                    {{}}
+                    {{date.desc}}
                 </p>
             </div>
         </div>

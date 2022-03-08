@@ -6,7 +6,7 @@
 
     <div class="row">
       <div class="col-md-4" >
-        <Date :date="d" class="my-2"/>
+        <Date :date="date" class="my-2"/>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@ export default {
   name: 'Home',
   setup() {
     return {
-      dates: computed(() => AppState.date),
+      date: computed(() => AppState.date),
     }
   }
 }
